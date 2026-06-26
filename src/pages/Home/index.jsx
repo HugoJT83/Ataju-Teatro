@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
     return (
         <>
-            <div>Bienvenido a la web de ataju</div>
+            <div className='font-roxborough'>Bienvenido a la web de ataju</div>
         </>
     )
 }
