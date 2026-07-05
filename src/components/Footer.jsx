@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo_ataju.svg'
+import logo from '../assets/logo_ataju_vectorizado.svg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
