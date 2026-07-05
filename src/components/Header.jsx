@@ -50,7 +50,11 @@ const Header = () => {
                     </div>
 
                     {isOpen && (
-                        <nav>
+                        <nav className='md:hidden flex flex-col items-center w-full my-2'>
+                            <NavLink to={"/nosotros"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Sobre Nosotros</NavLink>
+                            <NavLink to={"/talleres"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Talleres</NavLink>
+                            <NavLink to={"/obras"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Representaciones</NavLink>
+                            <NavLink to={"/contacto"} className="text-center w-full p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Contacto</NavLink>
 
                         </nav>
                     )}
