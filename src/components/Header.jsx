@@ -34,7 +34,7 @@ const Header = () => {
 
                     {/* Diseño para movil */}
                     <div className='md:hidden w-full flex justify-between'>
-                        <NavLink to={"/"} className="hover:cursor-pointer">
+                        <NavLink to={"/"} className="hover:cursor-pointer px-3">
                             <img src={logo} className='w-20 h-20 md:w-30 md:h-30' />
                         </NavLink>
                         <button
@@ -50,11 +50,11 @@ const Header = () => {
                     </div>
 
                     {isOpen && (
-                        <nav className='md:hidden flex flex-col items-center w-full my-2'>
-                            <NavLink to={"/nosotros"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Sobre Nosotros</NavLink>
+                        <nav className='md:hidden flex flex-col items-center w-full my-2 text-xl'>
+                            <NavLink to={"/nosotros"} className="text-center w-full border-b border-t p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Sobre Nosotros</NavLink>
                             <NavLink to={"/talleres"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Talleres</NavLink>
                             <NavLink to={"/obras"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Representaciones</NavLink>
-                            <NavLink to={"/contacto"} className="text-center w-full p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Contacto</NavLink>
+                            <NavLink to={"/contacto"} className="text-center w-full border-b p-2 hover:bg-ataju-green hover:text-white transition-all ease-in-out">Contacto</NavLink>
 
                         </nav>
                     )}
