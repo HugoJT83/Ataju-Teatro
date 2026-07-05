@@ -33,7 +33,7 @@ const Header = () => {
                     </nav>
 
                     {/* Diseño para movil */}
-                    <div className='md:hidden w-full flex justify-between'>
+                    <div className='md:hidden w-full flex justify-between mb-3'>
                         <NavLink to={"/"} className="hover:cursor-pointer px-3">
                             <img src={logo} className='w-20 h-20 md:w-30 md:h-30' />
                         </NavLink>

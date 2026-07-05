@@ -17,7 +17,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="text-gray-600 fixed bottom-0 w-full">
+            <footer className="text-gray-600 w-full">
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <NavLink to={"/"} className="flex items-center md:justify-start justify-center text-gray-900 hover:cursor-pointer">
                         <img src={logo} alt="" className='w-25 h-25' />
